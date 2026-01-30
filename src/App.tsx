@@ -34,7 +34,7 @@ import Testament from "./components/section/testament";
 
 export function App() {
   return (
-    <main className="font-nunito tracking-[0.035em] leading-[1.3em]">
+    <main className="font-aeonik">
       <Header />
       <Hero />
       <Testament />
