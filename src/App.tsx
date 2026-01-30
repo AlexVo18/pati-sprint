@@ -19,7 +19,7 @@ import Testament from "./components/section/testament";
 
 export function App() {
   return (
-    <main className="font-aeonik selection:bg-main-light-red/20">
+    <main className="font-aeonik text-main-dark-red selection:bg-main-light-red/20">
       <Header />
       <Hero />
       <Testament />
