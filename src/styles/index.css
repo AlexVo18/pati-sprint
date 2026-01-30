@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import "shadcn/tailwind.css";
 @import "./fonts.css";
 
 @custom-variant dark (&:is(.dark *));
@@ -37,14 +38,10 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
-  --main-skin: oklch(0.9492 0.0193 90.54);
-  --main-green: oklch(0.6013 0.1302 162.57);
-  --main-pink: oklch(0.7551 0.1363 20.79);
+  --main-skin: oklch(0.9108 0.0217 76.52);
   --main-dark-red: oklch(0.2723 0.109753 22.2781);
+  --main-light-red: oklch(0.7822 0.1268 22.11);
   --main-red: oklch(0.4522 0.184068 26.5694);
-  --font-aeonik: "Aeonik", sans-serif;
-  --font-arizona: "Arizona", sans-serif;
-  --font-nb: "NB Architekt", sans-serif;
 }
 
 .dark {
@@ -84,6 +81,7 @@
 @theme inline {
   --font-sans: "Inter Variable", sans-serif;
   --font-aeonik: "Aeonik", sans-serif;
+  --font-louzie: "LouizeDisplay", sans-serif;
   --font-arizona: "Arizona", sans-serif;
   --font-nb: "NB Architekt", sans-serif;
   --color-sidebar-ring: var(--sidebar-ring);
@@ -122,6 +120,7 @@
   --color-main-pink: var(--main-pink);
   --color-main-red: var(--main-red);
   --color-main-dark-red: var(--main-dark-red);
+  --color-main-light-red: var(--main-light-red);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);

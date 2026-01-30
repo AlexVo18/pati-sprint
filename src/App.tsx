@@ -1,18 +1,3 @@
-// import Action from "./components/section-old/action";
-// import Advice from "./components/section-old/advice";
-// import Commitment from "./components/section-old/commitment";
-// import Connection from "./components/section-old/connection";
-// import DrainageSystem from "./components/section-old/drainage-system";
-// import Header from "./components/section-old/header";
-// import Hero from "./components/section-old/hero";
-// import Ingredients from "./components/section-old/ingredients";
-// import MissingPiece from "./components/section-old/missing-piece";
-// import Mission from "./components/section-old/mission";
-// import Press from "./components/section-old/press";
-// import Questions from "./components/section-old/questions";
-// import Reviews from "./components/section-old/reviews";
-// import Stories from "./components/section-old/stories";
-
 import Ambassadors from "./components/section/ambassadors";
 import BeckhamStack from "./components/section/beckham-stack";
 import Content from "./components/section/content";
