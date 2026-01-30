@@ -111,3 +111,8 @@ export const plusIcon =
   "https://im8health.com/cdn/shop/t/121/assets/footer_plus.svg";
 export const minusIcon =
   "https://im8health.com/cdn/shop/t/121/assets/footer_minus.svg";
+
+export const videoBgThumbnail =
+  "//im8health.com/cdn/shop/files/preview_images/fbf49de132784b63b1209cf9f32ce77d.thumbnail.0000000000.jpg?v=1724177472";
+export const videoBg =
+  "//im8health.com/cdn/shop/videos/c/vp/fbf49de132784b63b1209cf9f32ce77d/fbf49de132784b63b1209cf9f32ce77d.HD-720p-2.1Mbps-33478040.mp4?v=0";

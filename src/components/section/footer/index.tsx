@@ -3,10 +3,12 @@ import { logo, navLinks } from "./mock-data";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import LinkAccordion from "./link-accordion";
+import EmailJoinSm from "./email-join-sm";
 
 const Footer = () => {
   return (
-    <div className="bg-main-dark-red">
+    <div className="bg-main-dark-red flex flex-col">
+      <EmailJoinSm />
       <Container
         id="footer"
         className="lg:pt-18 md:pt-12.5 pt-10 sm:pb-8.5 pb-6 flex flex-col gap-14 lg:gap-12.5 sm:gap-10 text-main-light-red"
@@ -74,7 +76,7 @@ const Footer = () => {
           </div>
           <div className="mx-auto max-w-252 flex flex-col gap-2.5 my-12.5 max-sm:my-2.5 text-center">
             <div className="p-2.5 border border-main-light-red">
-              <p className="my-3.75 font-bold">
+              <p className="my-3.75 sm:font-bold">
                 *These statements have not been evaluated by the Food and Drug
                 Administration. This product is not intended to diagnose, treat,
                 cure or prevent any disease.

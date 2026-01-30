@@ -19,7 +19,7 @@ const LinkAccordion = () => {
           >
             <AccordionTrigger
               className={cn(
-                "hover:no-underline uppercase font-sans font-bold flex items-center justify-between w-full text-2xl",
+                "hover:no-underline uppercase font-sans font-semibold flex items-center justify-between w-full text-2xl",
                 "[&>svg]:hidden [&[data-state=open]>svg]:hidden",
               )}
             >
