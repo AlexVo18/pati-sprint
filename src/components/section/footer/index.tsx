@@ -27,10 +27,8 @@ const Footer = () => {
                     {children.map((item) => {
                       const { label, href } = item;
                       return (
-                        <div className="py-2 text-sm">
-                          <a key={label} href={href}>
-                            {label}
-                          </a>
+                        <div className="py-2 text-sm" key={label}>
+                          <a href={href}>{label}</a>
                         </div>
                       );
                     })}
