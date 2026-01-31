@@ -2,6 +2,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import AutoScroll from "embla-carousel-auto-scroll";
 import { reviews } from "../mock-data";
 import Card from "../card";
+import { cn } from "@/lib/utils";
 
 const Carousel = () => {
   const duplicatedReviews = [...reviews, ...reviews, ...reviews];
@@ -19,7 +20,13 @@ const Carousel = () => {
       <div className="embla__viewport cursor-grab py-6 -my-6" ref={emblaRef}>
         <div className="embla__container flex gap-4 select-none ">
           {duplicatedReviews.map((review, index) => (
-            <div key={`${review.name}-${index}`}>
+            <div
+              className={cn(
+                "mb-1",
+                index + 1 === duplicatedReviews.length && "pr-4",
+              )}
+              key={`${review.name}-${index}`}
+            >
               <div className="shrink-0 w-100 h-full ">
                 <Card data={review} />
               </div>
