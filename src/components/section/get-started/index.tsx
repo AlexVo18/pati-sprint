@@ -11,12 +11,12 @@ const GetStarted = () => {
         className="size-full absolute inset-0 object-cover object-center -z-10"
       />
       <Container id="get-started" className="pt-7.5 " isLargeScreen>
-        <h1 className="font-louzie text-[28px] leading-8 uppercase tracking-wider md:hidden text-center max-md:mb-7.5">
+        <h1 className="font-arizona text-[28px] leading-8 uppercase tracking-wider md:hidden text-center max-md:mb-7.5">
           Get Started with IM8 for Daily Ultimate Nutrition
         </h1>
         <div className="md:py-10 pb-0 grid md:grid-cols-2">
           <div>
-            <h1 className="pb-7.5 font-louzie text-[40px] leading-12 uppercase tracking-wider max-md:hidden">
+            <h1 className="pb-7.5 font-arizona text-[40px] leading-12 uppercase tracking-wider max-md:hidden">
               Get Started with IM8 for Daily Ultimate Nutrition
             </h1>
             <div className="flex flex-col text-lg">

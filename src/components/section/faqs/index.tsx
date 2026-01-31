@@ -14,7 +14,7 @@ const Faqs = () => {
       <div className="flex max-md:flex-col md:min-h-screen ">
         <div className="flex items-center justify-center md:w-1/2">
           <div className="pt-10 md:pl-14 md:pr-30 px-5 md:pb-10 pb-14 md:w-[80%] ml-auto">
-            <h1 className="font-louzie md:text-[52px] text-[56px] md:text-main-light-red text-white">
+            <h1 className="font-arizona md:text-[52px] text-[56px] md:text-main-light-red text-white">
               FAQs
             </h1>
             <div className="mt-2 text-white">

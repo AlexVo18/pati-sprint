@@ -7,7 +7,7 @@ const Premium = () => {
     <Container isLargeScreen className="md:pt-26 md:pb-10 pt-19.5 pb-7.5">
       <div className="flex flex-col gap-10">
         <div className="flex flex-col ">
-          <h1 className="lg:text-[52px] md:text-4xl text-[28px] max-md: mb-4 font-louzie">
+          <h1 className="lg:text-[52px] md:text-4xl text-[28px] max-md: mb-4 font-arizona">
             Premium Core Nutrition
           </h1>
           <div className="flex max-md:flex-col md:items-center md:gap-4 gap-2">

@@ -24,7 +24,7 @@ const Ambassadors = () => {
             </div>
             <p className="uppercase text-sm">Feel The Difference</p>
           </div>
-          <h1 className="font-louzie md:text-[54px] text-[40px] leading-11 text-center">
+          <h1 className="font-arizona md:text-[54px] text-[40px] leading-11 text-center">
             What Our IM8 Ambassadors Are Saying
           </h1>
         </div>

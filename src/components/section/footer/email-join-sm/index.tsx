@@ -19,7 +19,7 @@ const EmailJoinSm = () => {
         </video>
       </div>
       <div className="flex flex-col justify-center py-14 px-5 z-2 max-w-92.5 text-main-dark-red">
-        <h2 className="text-center text-[46px] font-louzie font-medium leading-10">
+        <h2 className="text-center text-[46px] font-arizona font-medium leading-10">
           Join the community for exclusive wellness insights
         </h2>
         <div className="flex flex-col gap-3 mt-6">

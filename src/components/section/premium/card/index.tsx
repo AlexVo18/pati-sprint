@@ -46,7 +46,7 @@ const Card = ({ item }: Props) => {
       </div>
       <div className="py-4 flex flex-col gap-3">
         <MessageBadge message={message} isGradient={isGradient} />
-        <h3 className="font-medium font-louzie text-2xl max-md:text-[20px] w-[55%]">
+        <h3 className="font-medium font-arizona text-2xl max-md:text-[20px] w-[60%]">
           {name}
         </h3>
         <div className="flex flex-col gap-1 text-sm max-md:text-xs">

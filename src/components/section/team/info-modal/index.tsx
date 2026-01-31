@@ -37,7 +37,7 @@ const InfoModal = ({ member, isModalOpen, setIsModalOpen }: Props) => {
             </div>
             <ScrollArea className=" max-h-[40vh] custom-scrollbar text-main-dark-red pr-4">
               <DialogHeader className="gap-0 mb-5">
-                <DialogTitle className="text-[32px] font-louzie">
+                <DialogTitle className="text-[32px] font-arizona">
                   {name}
                 </DialogTitle>
                 <p className="text-base font-bold">{role}</p>

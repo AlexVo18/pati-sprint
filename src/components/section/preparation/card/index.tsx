@@ -17,7 +17,7 @@ const Card = ({ step }: Props) => {
       >
         <source src={videoHref} type="video/mp4" />
       </video>
-      <p className="font-louzie text-2xl font-medium ">{title}</p>
+      <p className="font-arizona text-2xl font-medium ">{title}</p>
     </div>
   );
 };

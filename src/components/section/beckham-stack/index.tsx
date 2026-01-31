@@ -13,8 +13,8 @@ const BeckhamStack = () => {
     <div className="bg-[#fdf8f8]">
       <Container id="beckham-stack" className="md:py-20 py-15">
         <div className="flex flex-col gap-8">
-          <div className="flex max-md:flex-col items-center justify-center gap-6 font-louzie">
-            <h1 className="text-center  lg:text-[32px] text-[28px] uppercase font-medium tracking-wider leading-8">
+          <div className="flex max-md:flex-col items-center justify-center gap-6 font-arizona">
+            <h1 className="text-center font-arizona lg:text-[32px] text-[28px] uppercase font-medium tracking-wider leading-8">
               Upgrade to the Beckham Stack
             </h1>
             <div className="bg-main-red text-white text-lg py-2 px-4 rounded-lg font-medium">
@@ -22,7 +22,7 @@ const BeckhamStack = () => {
             </div>
           </div>
           <div className="max-w-245 w-full mx-auto rounded-2xl overflow-visible border border-[#E5E5E5]">
-            <div className="bg-main-dark-red grid grid-cols-3 items-center overflow-visible relative text-white text-lg font-louzie rounded-t-2xl">
+            <div className="bg-main-dark-red grid grid-cols-3 items-center overflow-visible relative text-white text-lg font-arizona rounded-t-2xl">
               <div className="flex items-start justify-start text-left p-2.5 pl-7.5 max-md:py-3.5 max-md:2.5 max-lg:p-4  lg:text-lg md:text-base text-sm tracking-wider">
                 Feature
               </div>

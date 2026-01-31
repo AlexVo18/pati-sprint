@@ -24,31 +24,22 @@
 
 @font-face {
   font-family: "Arizona";
-  src: url("../fonts/Arizona.woff2") format("woff2");
+  src: url("../fonts/ABCArizonaFlare-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
-  font-family: "LouizeDisplay";
-  src: url("../fonts/LouizeDisplay.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "LouizeDisplay";
-  src: url("../fonts/LouizeDisplay-Medium.woff2") format("woff2");
+  font-family: "Arizona";
+  src: url("../fonts/ABCArizonaFlareUnlicensedTrial-Medium.woff2")
+    format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
-  font-family: "LouizeDisplay";
-  src: url("../fonts/LouizeDisplay-Bold.woff2") format("woff2");
+  font-family: "Arizona";
+  src: url("../fonts/ABCArizonaFlare-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;

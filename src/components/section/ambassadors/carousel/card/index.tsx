@@ -28,7 +28,7 @@ const Card = ({ review }: Props) => {
       </video>
       <div className="pt-6">
         <Rating className="h-3" />
-        <div className="pt-4 font-louzie font-medium text-xl ">{content}</div>
+        <div className="pt-4 font-arizona font-medium text-xl ">{content}</div>
       </div>
     </div>
   );

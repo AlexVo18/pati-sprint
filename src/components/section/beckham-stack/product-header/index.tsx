@@ -13,7 +13,7 @@ const ProductHeader = ({ productImg, title }: Props) => {
           className="w-[120%] h-full object-center object-contain"
         />
       </div>
-      <p className="tracking-wider leading-[1.3] max-lg:text-sm max-md:text-xs max-md:text-center">
+      <p className="leading-[1.3] text-base max-lg:text-sm max-md:text-xs max-md:text-center">
         {title}
       </p>
     </div>
