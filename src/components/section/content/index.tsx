@@ -1,7 +1,22 @@
-import React from "react";
+import { img, imgSm } from "./mock-data";
 
 const Content = () => {
-  return <div>Content</div>;
+  return (
+    <section id="content">
+      <img
+        src={img}
+        alt="content"
+        className="max-md:hidden size-full object-cover"
+        loading="lazy"
+      />
+      <img
+        src={imgSm}
+        alt="content"
+        className="md:hidden size-full object-cover"
+        loading="lazy"
+      />
+    </section>
+  );
 };
 
 export default Content;
