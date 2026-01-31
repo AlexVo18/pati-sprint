@@ -32,7 +32,7 @@ const Card = ({ member }: Props) => {
           <p className="font-bold">{name}</p>
           <p className="max-xl:text-xs max-md:text-base">{role}</p>
         </div>
-        <div className="absolute bottom-4 right-4 max-xl:bottom-3 max-xl:right-3 max-md:hidden">
+        <div className="absolute bottom-4 right-4 max-xl:bottom-3 max-xl:right-3 max-md:hidden ">
           <AddButton className="size-12 max-xl:size-8" />
         </div>
       </div>
