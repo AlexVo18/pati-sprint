@@ -1,15 +1,9 @@
 import FiveStars from "@/icons/five-stars";
-import { ambassadorReviews, bgImg, bgImgSm } from "./mock-data";
-import Card from "./carousel/card";
+import { bgImg, bgImgSm } from "./mock-data";
 import "./styles.css";
+import Carousel from "./carousel";
 
 const Ambassadors = () => {
-  const reviews = [
-    ...ambassadorReviews,
-    ...ambassadorReviews,
-    ...ambassadorReviews,
-    ...ambassadorReviews,
-  ];
   return (
     <section id="ambassadors" className="relative md:py-26 py-14 size-full">
       <img
@@ -34,15 +28,7 @@ const Ambassadors = () => {
             What Our IM8 Ambassadors Are Saying
           </h1>
         </div>
-        <div className="relative overflow-hidden">
-          <div className="grid grid-flow-col gap-4 animate-scroll">
-            {reviews.map((review, index) => (
-              <div className="h-full " key={`${review.name}-${index}`}>
-                <Card review={review} />
-              </div>
-            ))}
-          </div>
-        </div>
+        <Carousel />
       </div>
     </section>
   );

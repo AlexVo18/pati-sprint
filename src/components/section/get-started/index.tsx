@@ -1,7 +1,11 @@
-import React from "react";
+import Container from "@/components/common/container";
 
 const GetStarted = () => {
-  return <div>GetStarted</div>;
+  return (
+    <div className="relative">
+      <Container className="">asd</Container>
+    </div>
+  );
 };
 
 export default GetStarted;
