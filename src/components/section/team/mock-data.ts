@@ -2,6 +2,8 @@ import type { MemberType } from "@/types/team.type";
 
 export const bgImg =
   "//im8health.com/cdn/shop/files/scientists-min.jpg?v=1727597898";
+export const bgImgSm =
+  "//im8health.com/cdn/shop/files/science-min.jpg?v=1727597901";
 
 export const teamMembers: MemberType[] = [
   {

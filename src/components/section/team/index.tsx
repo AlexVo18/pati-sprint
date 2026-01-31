@@ -1,7 +1,6 @@
 import Container from "@/components/common/container";
-import { bgImg, teamMembers } from "./mock-data";
+import { bgImg, bgImgSm, teamMembers } from "./mock-data";
 import Card from "./card";
-
 
 const Team = () => {
   return (
@@ -9,7 +8,12 @@ const Team = () => {
       <img
         src={bgImg}
         alt="background image"
-        className="size-full absolute inset-0 object-cover object-center -z-10"
+        className="size-full absolute inset-0 object-cover object-center -z-10 max-md:hidden"
+      />
+      <img
+        src={bgImgSm}
+        alt="background image"
+        className="size-full absolute inset-0 object-cover object-center -z-10 md:hidden"
       />
       <Container
         id="team"
@@ -19,7 +23,7 @@ const Team = () => {
         <div className="flex flex-col md:gap-14 gap-8 ">
           <div className="flex items-center justify-center w-full flex-col gap-1 text-center max-md:max-w-84 mx-auto">
             <p className="font-nb uppercase text-sm mb-4">Driven by Science</p>
-            <h1 className="font-louzie md:text-[64px] text-[40px] leading-11">
+            <h1 className="font-louzie md:text-[54px] text-[40px] leading-11">
               Meet The Brilliant Minds Behind IM8
             </h1>
             <p className="mt-4 text-base ">
