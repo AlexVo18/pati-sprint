@@ -84,7 +84,7 @@ const MonthlyBreakdown = () => {
             </div>
           </div>
         </div>
-        <div className="px-5 py-14 relative w-full overflow-hidden">
+        <div className="md:hidden px-5 py-14 relative w-full overflow-hidden">
           <div className="absolute inset-0 flex items-start justify-center pt-10">
             <img
               src={pillBgSm}
