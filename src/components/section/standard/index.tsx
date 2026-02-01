@@ -10,8 +10,18 @@ import GreyX from "@/icons/grey-x";
 import GreenX from "@/icons/green-x";
 import GreenCheck from "@/icons/green-check";
 import { Button } from "@/components/ui/button";
+import { useState } from "react";
+import { cn } from "@/lib/utils";
 
 const Standard = () => {
+  const [isMore, setIsMore] = useState(false);
+  const redData = isMore
+    ? [...dailyStandards]
+    : [...dailyStandards.slice(0, 10)];
+  const greenData = isMore
+    ? [...leadingStandards]
+    : [...leadingStandards.slice(0, 10)];
+
   return (
     <div className="bg-[#eae0d2]">
       <Container id="standard" className="md:py-26 pt-14 pb-9.5">
@@ -33,8 +43,13 @@ const Standard = () => {
                   />
                 </div>
               </div>
-              {dailyStandards.map((item) => (
-                <div className="flex items-center md:gap-5 gap-2 md:pl-12 md:py-1.25 md:pr-2.5 p-3.75 md:h-14 h-21.25 bg-[#f5eaea] border-main-dark-red not-last:border-b border-r last:rounded-bl-xl">
+              {redData.map((item) => (
+                <div
+                  className={cn(
+                    "flex items-center md:gap-5 gap-2 md:pl-12 md:py-1.25 md:pr-2.5 p-3.75 md:h-14 h-21.25 bg-[#f5eaea] border-main-dark-red not-last:border-b border-r ",
+                    isMore && "last:rounded-bl-xl",
+                  )}
+                >
                   <div>
                     {item.isTrue ? (
                       <RedCheck className="max-md:size-4" />
@@ -66,8 +81,13 @@ const Standard = () => {
                   />
                 </div>
               </div>
-              {leadingStandards.map((item) => (
-                <div className="flex items-center md:gap-5 gap-2 md:pl-12 md:py-1.25 md:pr-2.5 p-3.75 md:h-14 h-21.25 text-[#2d3b32] bg-[#b6c0b1] border-main-dark-red not-last:border-b border-l last:rounded-br-xl">
+              {greenData.map((item) => (
+                <div
+                  className={cn(
+                    "flex items-center md:gap-5 gap-2 md:pl-12 md:py-1.25 md:pr-2.5 p-3.75 md:h-14 h-21.25 text-[#2d3b32] bg-[#b6c0b1] border-main-dark-red not-last:border-b border-l ",
+                    isMore && "last:rounded-br-xl",
+                  )}
+                >
                   <div>
                     {item.isTrue ? (
                       <GreenCheck className="max-md:size-4" />
@@ -86,6 +106,14 @@ const Standard = () => {
                 </div>
               ))}
             </div>
+            {!isMore && (
+              <div
+                className="col-span-2 md:pl-12 md:py-1.25 md:pr-2.5 p-3.75 md:h-14 h-21.25 border-t border-main-dark-red rounded-b-xl bg-[#f5eaea] flex items-center justify-center cursor-pointer"
+                onClick={() => setIsMore(true)}
+              >
+                See more
+              </div>
+            )}
           </div>
         </div>
         <div className="flex justify-center mt-8">
