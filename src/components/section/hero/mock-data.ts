@@ -174,32 +174,38 @@ export const trainers: TrainerType[] = [
 
 export const ambassadors: AmbassType[] = [
   {
-    videoHref: "#popup_video_1",
+    videoHref:
+      "https://im8health.com/cdn/shop/videos/c/vp/12eb3b01fd54404d81ef22a20d415f15/12eb3b01fd54404d81ef22a20d415f15.HD-1080p-2.5Mbps-38313438.mp4?v=0",
     imageHref:
       "//im8health.com/cdn/shop/files/preview_images/thm-expert_robinB2.jpg?v=1731999065",
   },
   {
-    videoHref: "#popup_video_2",
+    videoHref:
+      "https://im8health.com/cdn/shop/videos/c/vp/e83246a2555949139036fce9bc1359a2/e83246a2555949139036fce9bc1359a2.HD-1080p-3.3Mbps-38232086.mp4?v=0",
     imageHref:
       "//im8health.com/cdn/shop/files/preview_images/influe-carou_bobbyRich2.jpg?v=1731863977",
   },
   {
-    videoHref: "#popup_video_3",
+    videoHref:
+      "https://im8health.com/cdn/shop/videos/c/vp/f7f68153342f4566ad00f411e2fb407b/f7f68153342f4566ad00f411e2fb407b.HD-1080p-7.2Mbps-38222859.mp4?v=0",
     imageHref:
       "//im8health.com/cdn/shop/files/preview_images/thm-expert_amyShah2.jpg?v=1731864964",
   },
   {
-    videoHref: "#popup_video_4",
+    videoHref:
+      "https://im8health.com/cdn/shop/videos/c/vp/064b8beaa0b04a4fad25676155936d3a/064b8beaa0b04a4fad25676155936d3a.HD-1080p-2.5Mbps-38221672.mp4?v=0",
     imageHref:
       "//im8health.com/cdn/shop/files/preview_images/thm-influ_dustinPoirier.jpg?v=1731833492",
   },
   {
-    videoHref: "#popup_video_5",
+    videoHref:
+      "https://im8health.com/cdn/shop/videos/c/vp/809d17a1684d40058d499ecd9afe9e21/809d17a1684d40058d499ecd9afe9e21.HD-1080p-4.8Mbps-38222820.mp4?v=0",
     imageHref:
       "//im8health.com/cdn/shop/files/preview_images/image_54.png?v=1731863088",
   },
   {
-    videoHref: "#popup_video_6",
+    videoHref:
+      "https://im8health.com/cdn/shop/videos/c/vp/1f4b2af008104c92a29f9d78814f1aa0/1f4b2af008104c92a29f9d78814f1aa0.HD-1080p-3.3Mbps-38232121.mp4?v=0",
     imageHref:
       "//im8health.com/cdn/shop/files/preview_images/1f4b2af008104c92a29f9d78814f1aa0.thumbnail.0000000000.jpg?v=1731860287",
   },
