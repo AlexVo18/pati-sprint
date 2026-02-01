@@ -2,6 +2,7 @@ import { useProductContext } from "@/hooks/use-product";
 import { cn } from "@/lib/utils";
 import Supply from "./supply";
 import { Button } from "@/components/ui/button";
+import LightGreenCheck from "@/icons/check";
 
 const Purchase = () => {
   const {
@@ -77,11 +78,20 @@ const Purchase = () => {
         </div>
       </div>
       <div className="mt-6 mb-3">
-        <Button className="uppercase bg-main-red hover:bg-main-dark-red text-white rounded-full h-fit py-1.25 pt-3 pb-2 w-full text-base font-bold ">
+        <Button className="uppercase bg-main-red hover:bg-main-dark-red text-white rounded-full h-fit py-1.25 md:pt-3 md:pb-2 pt-4 pb-3 w-full text-base max-md:text-xs font-bold ">
           {name === "90-Day Supply"
             ? `START MY 90-DAY TRANSFORMATION PROGRAM-${pricePerMonth} AUD/MO`
             : `ADD TO CART-${pricePerMonth} AUD/MO`}
         </Button>
+      </div>
+      <div className="mt-4 md:py-3.5 md:px-4.5 py-3 px-3.5 gap-4 flex items-center rounded-xl border border-[#16A34A] bg-[#F0FDF4] text-sm">
+        <div className="rounded-full size-6 bg-[#22c55e] flex items-center justify-center">
+          <LightGreenCheck className="size-4 text-white" />
+        </div>
+        <p className="text-[#166534]">
+          <span className="font-bold">New Year discount</span> automatically
+          applied at checkout
+        </p>
       </div>
     </div>
   );

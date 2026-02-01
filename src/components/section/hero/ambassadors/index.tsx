@@ -81,7 +81,7 @@ const Ambassadors = () => {
       >
         <CarouselContent>
           {ambassadors.map((item, index) => (
-            <CarouselItem key={index} className="basis-[19.3%] relative ">
+            <CarouselItem key={index} className="md:basis-[19.3%] basis-[25%] relative ">
               <button
                 type="button"
                 onClick={() => openVideo(item)}

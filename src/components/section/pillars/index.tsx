@@ -51,7 +51,7 @@ const Pillars = () => {
         />
         <Header isEssentials={isEssentials} />
 
-        <div className="grid gap-6 lg:grid-cols-[380px_1fr] lg:gap-10 xl:grid-cols-[420px_1fr] xl:gap-14 mb-16 lg:mb-20">
+        <div className="grid gap-6 lg:grid-cols-[380px_1fr]  lg:gap-10 xl:grid-cols-[420px_1fr] xl:gap-14 mb-16 lg:mb-20">
           <Navigation
             pillars={currentPillars}
             activePillar={activePillar}

@@ -9,7 +9,7 @@ interface Props {
 const Content = ({ isEssentials, pillar }: Props) => {
   return (
     <div
-      className="relative rounded-[28px] lg:rounded-[36px] overflow-hidden min-h-105 lg:min-h-130"
+      className="relative rounded-[28px] lg:rounded-[36px] max-lg:order-first overflow-hidden min-h-105 lg:min-h-130"
       style={{
         background: isEssentials
           ? "linear-gradient(145deg, rgba(255, 255, 255, 0.98) 0%, rgba(245, 234, 234, 0.95) 50%, rgba(255, 245, 245, 0.92) 100%)"

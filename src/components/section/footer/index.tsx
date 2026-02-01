@@ -21,7 +21,7 @@ const Footer = () => {
                 const { children, title } = section;
                 return (
                   <div key={title}>
-                    <div className="uppercase font-sans font-bold text-base tracking-wide pb-2">
+                    <div className="uppercase font-arizona font-bold text-base tracking-wide pb-2">
                       {title}
                     </div>
                     {children.map((item) => {
@@ -41,7 +41,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="max-md:hidden flex flex-col gap-5 lg:w-[32.5%] w-[50%] max-lg:mx-auto pl-11.25 lg:border-l border-[#ff96934d] ">
-            <div className="uppercase font-sans font-bold text-base tracking-wide max-lg:text-center">
+            <div className="uppercase font-arizona font-bold text-base tracking-wide max-lg:text-center">
               Join the community for exclusive wellness insights
             </div>
             <div className="flex flex-col gap-3">

@@ -108,10 +108,10 @@ const Standard = () => {
             </div>
             {!isMore && (
               <div
-                className="col-span-2 md:pl-12 md:py-1.25 md:pr-2.5 p-3.75 md:h-14 h-21.25 border-t border-main-dark-red rounded-b-xl bg-[#f5eaea] flex items-center justify-center cursor-pointer"
+                className="col-span-2 md:pl-12 md:py-1.25 md:pr-2.5 p-3.75 md:h-14  border-t border-main-dark-red rounded-b-xl bg-[#f5eaea] flex items-center justify-center cursor-pointer"
                 onClick={() => setIsMore(true)}
               >
-                See more
+                See More
               </div>
             )}
           </div>

@@ -1,5 +1,6 @@
 import Ambassadors from "./components/section/ambassadors";
 import BeckhamStack from "./components/section/beckham-stack";
+import Cart from "./components/section/cart";
 import Content from "./components/section/content";
 import Experts from "./components/section/experts";
 import Faqs from "./components/section/faqs";
@@ -20,9 +21,10 @@ import Testament from "./components/section/testament";
 
 export function App() {
   return (
-    <main className="font-aeonik text-main-dark-red selection:bg-main-light-red/20">
+    <main className="font-aeonik relative text-main-dark-red selection:bg-main-light-red/20">
       <Header />
       <StickyHeader />
+      <Cart />
       <Hero />
       <Testament />
       <Reviews />
