@@ -117,7 +117,7 @@ const Standard = () => {
           </div>
         </div>
         <div className="flex justify-center mt-8">
-          <Button className="uppercase bg-main-red hover:bg-main-dark-red  rounded-full transition duration-300 font-bold pt-5.5 pb-5 px-8 text-base min-w-68">
+          <Button className="uppercase bg-main-red hover:bg-main-dark-red  rounded-full transition duration-300 font-bold pt-5.5 pb-5 px-8 text-base min-w-68 cursor-pointer">
             View Supplement Facts
           </Button>
         </div>

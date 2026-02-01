@@ -14,6 +14,7 @@ import Premium from "./components/section/premium";
 import Preparation from "./components/section/preparation";
 import Reviews from "./components/section/reviews";
 import Standard from "./components/section/standard";
+import StickyHeader from "./components/section/sticky-header";
 import Team from "./components/section/team";
 import Testament from "./components/section/testament";
 
@@ -21,6 +22,7 @@ export function App() {
   return (
     <main className="font-aeonik text-main-dark-red selection:bg-main-light-red/20">
       <Header />
+      <StickyHeader />
       <Hero />
       <Testament />
       <Reviews />
