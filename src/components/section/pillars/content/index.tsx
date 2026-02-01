@@ -1,5 +1,5 @@
+import DarkRedCheck from "@/icons/dark-red-check";
 import type { Pillar } from "@/types/pillars.type";
-import { CheckIcon } from "lucide-react";
 
 interface Props {
   pillar: Pillar;
@@ -163,7 +163,7 @@ const Content = ({ isEssentials, pillar }: Props) => {
                     className="shrink-0"
                     style={{ color: isEssentials ? "#50000B" : "#E78D2D" }}
                   >
-                    <CheckIcon />
+                    <DarkRedCheck />
                   </div>
                   <span>{benefit}</span>
                 </li>
